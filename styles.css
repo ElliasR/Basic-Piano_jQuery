@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  vertical-align: text-bottom;
+  background-color: #011f3f;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #fef2bf;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.btn {
+  margin: 0px;
+  display: inline-block;
+  height: 200px;
+  width: 50px;
+  border: 0.5px solid rgb(160, 160, 160);
+  border-radius: 0%;
+  /* vertical-align: text-bottom; */
+}
+
+b {
+  color: red;
+  font-size: 1.4em;
+}
+
+.white {
+  background-color: white;
+}
+
+.pressed {
+  box-shadow: 0 0 10px white;
+  background-color: grey;
+}
